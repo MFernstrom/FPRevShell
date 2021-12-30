@@ -1,17 +1,18 @@
 program TCPReverseShell;
 
 {
-  Author      Marcus Fernström
-  GitHub      https://github.com/MFernstrom/FPRevShell
-  License     Apache 2.0
-  Version     0.1
-  About       TCP Reverse Shell
-              When executed it connects to your ip and port over a TCP connection, giving you a CMD commandline on Windows or /bin/bash on Linux
-              It will auto-reconnect if disconnected.
-              Set the IP and port, run your netcat listener for example "nc -lvp 1337", and off you go.
+  Author        Marcus Fernström
+  GitHub        https://github.com/MFernstrom/FPRevShell
+  License       Apache 2.0
+  Version       0.1
+  About         TCP Reverse Shell
+                When executed it connects to your ip and port over a TCP connection, giving you a CMD commandline on Windows or /bin/bash on Linux
+                It will auto-reconnect if disconnected.
+                Set the IP and port, run your netcat listener for example "nc -lvp 1337", and off you go.
 
-  Targets     Tested on Windows and Linux x64
-  Disclaimer  Use this only for good. I'm not responsible for anything happening when using this code.
+  Targets       Tested on Windows and Linux x64
+  Requirements  Depends on Synsapse, included in the repo.
+  Disclaimer    Use this only for good. I'm not responsible for anything happening when using this code.
 }
 
 {$mode objfpc}{$H+}
