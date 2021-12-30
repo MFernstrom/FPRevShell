@@ -1,0 +1,32 @@
+object Form1: TForm1
+  Left = -786
+  Height = 420
+  Top = 130
+  Width = 628
+  Caption = 'HTTPServ'
+  ClientHeight = 420
+  ClientWidth = 628
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 193
+    Caption = 'Run HTTP Server'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 54
+    Height = 277
+    Top = 79
+    Width = 484
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+end

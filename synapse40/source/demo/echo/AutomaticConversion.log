@@ -1,0 +1,13 @@
+ Progress: Found all unit files
+EchoSrv.lpr(1,17) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+ : *** Converting unit files belonging to project/package ***
+main.pas Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+main.pas(1,11) Note: Added MODE Delphi syntax modifier after unit name.
+echo.pas(1,11) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+ : *** Converting unit files found during conversion ***
+synsock.pas Note: Repairing include files : ..\..\lib\ssdotnet.inc; ..\..\lib\sswin32.inc; ..\..\lib\ssfpc.inc; ..\..\lib\sslinux.inc
+synsock.pas Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+ Progress: Conversion took: 00:00:10
+ Fatal: Conversion Aborted.

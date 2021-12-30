@@ -1,0 +1,13 @@
+ Progress: Found all unit files
+httpserv.lpr(1,18) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+ : *** Converting unit files belonging to project/package ***
+main.pas Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+main.pas(1,11) Note: Added MODE Delphi syntax modifier after unit name.
+http.pas(1,11) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+ : *** Converting unit files found during conversion ***
+synautil.pas Note: Changed encoding from cp1252 to UTF-8
+synautil.pas Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+ Progress: Conversion took: 00:00:06
+ Fatal: Conversion Aborted.

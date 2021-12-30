@@ -1,0 +1,10 @@
+ Progress: Found all unit files
+MimeDemo.lpr(1,18) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+ : *** Converting unit files belonging to project/package ***
+Unit1.pas Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+Unit1.pas(1,12) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+ : *** Converting unit files found during conversion ***
+ Progress: Conversion took: 00:00:09
+ Fatal: Conversion Aborted.

@@ -1,0 +1,270 @@
+object Form1: TForm1
+  Left = 229
+  Top = 108
+  Width = 696
+  Height = 597
+  Caption = 'Synapse HTTP demo'
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  PixelsPerInch = 120
+  TextHeight = 16
+  object Panel1: TPanel
+    Left = 0
+    Top = 57
+    Width = 688
+    Height = 105
+    Align = alTop
+    TabOrder = 0
+    object Label3: TLabel
+      Left = 8
+      Top = 40
+      Width = 30
+      Height = 16
+      Caption = 'URL:'
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 8
+      Width = 238
+      Height = 16
+      Caption = 'POST URL demo... (simulating post.htm)'
+    end
+    object Label5: TLabel
+      Left = 8
+      Top = 80
+      Width = 33
+      Height = 16
+      Caption = 'Field:'
+    end
+    object Label6: TLabel
+      Left = 312
+      Top = 80
+      Width = 38
+      Height = 16
+      Caption = 'Value:'
+    end
+    object Edit2: TEdit
+      Left = 48
+      Top = 32
+      Width = 537
+      Height = 24
+      TabOrder = 0
+      Text = 'http://localhost/postresult.php'
+    end
+    object Button2: TButton
+      Left = 592
+      Top = 32
+      Width = 75
+      Height = 25
+      Caption = 'GET!'
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+    object Edit3: TEdit
+      Left = 48
+      Top = 72
+      Width = 185
+      Height = 24
+      TabOrder = 2
+      Text = 'text_value'
+    end
+    object Edit4: TEdit
+      Left = 360
+      Top = 72
+      Width = 225
+      Height = 24
+      TabOrder = 3
+      Text = '0123456789'
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 162
+    Width = 688
+    Height = 112
+    Align = alTop
+    TabOrder = 1
+    object Label7: TLabel
+      Left = 8
+      Top = 8
+      Width = 290
+      Height = 16
+      Caption = 'POST file upload demo... (simulating postfile.htm)'
+    end
+    object Label8: TLabel
+      Left = 8
+      Top = 40
+      Width = 30
+      Height = 16
+      Caption = 'URL:'
+    end
+    object Label9: TLabel
+      Left = 8
+      Top = 80
+      Width = 33
+      Height = 16
+      Caption = 'Field:'
+    end
+    object Label10: TLabel
+      Left = 296
+      Top = 80
+      Width = 59
+      Height = 16
+      Caption = 'Filename:'
+    end
+    object Edit5: TEdit
+      Left = 48
+      Top = 32
+      Width = 537
+      Height = 24
+      TabOrder = 0
+      Text = 'http://localhost/postfileresult.php'
+    end
+    object Button3: TButton
+      Left = 592
+      Top = 32
+      Width = 75
+      Height = 25
+      Caption = 'GET!'
+      TabOrder = 1
+      OnClick = Button3Click
+    end
+    object Edit6: TEdit
+      Left = 48
+      Top = 72
+      Width = 185
+      Height = 24
+      TabOrder = 2
+      Text = 'userfile'
+    end
+    object Edit7: TEdit
+      Left = 360
+      Top = 72
+      Width = 225
+      Height = 24
+      TabOrder = 3
+      Text = 'c:\autoexec.bat'
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 274
+    Width = 688
+    Height = 291
+    Align = alClient
+    BorderWidth = 3
+    Caption = 'Panel3'
+    TabOrder = 2
+    object Panel4: TPanel
+      Left = 4
+      Top = 4
+      Width = 680
+      Height = 77
+      Align = alTop
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 8
+        Top = 40
+        Width = 30
+        Height = 16
+        Caption = 'URL:'
+      end
+      object Label2: TLabel
+        Left = 8
+        Top = 8
+        Width = 75
+        Height = 16
+        Caption = 'GET demo...'
+      end
+      object Edit1: TEdit
+        Left = 48
+        Top = 32
+        Width = 537
+        Height = 24
+        TabOrder = 0
+        Text = 'http://localhost/'
+      end
+      object Button1: TButton
+        Left = 592
+        Top = 32
+        Width = 75
+        Height = 25
+        Caption = 'GET!'
+        TabOrder = 1
+        OnClick = Button1Click
+      end
+    end
+    object Memo1: TMemo
+      Left = 4
+      Top = 81
+      Width = 680
+      Height = 100
+      Align = alTop
+      Lines.Strings = (
+        'Memo1'
+      )
+      ScrollBars = ssBoth
+      TabOrder = 1
+    end
+    object Memo2: TMemo
+      Left = 4
+      Top = 181
+      Width = 680
+      Height = 106
+      Align = alClient
+      Lines.Strings = (
+        'Memo2'
+      )
+      ScrollBars = ssBoth
+      TabOrder = 2
+    end
+  end
+  object Panel5: TPanel
+    Left = 0
+    Top = 0
+    Width = 688
+    Height = 57
+    Align = alTop
+    BorderWidth = 3
+    TabOrder = 3
+    object Label11: TLabel
+      Left = 208
+      Top = 16
+      Width = 68
+      Height = 16
+      Caption = 'Proxy Host:'
+    end
+    object Label12: TLabel
+      Left = 480
+      Top = 16
+      Width = 64
+      Height = 16
+      Caption = 'Proxy Port:'
+    end
+    object Label13: TLabel
+      Left = 8
+      Top = 16
+      Width = 162
+      Height = 16
+      Caption = 'Proxy settings for  all demo:'
+    end
+    object Edit8: TEdit
+      Left = 288
+      Top = 16
+      Width = 185
+      Height = 24
+      TabOrder = 0
+      Text = 'Edit8'
+    end
+    object Edit9: TEdit
+      Left = 552
+      Top = 16
+      Width = 105
+      Height = 24
+      TabOrder = 1
+    end
+  end
+end
